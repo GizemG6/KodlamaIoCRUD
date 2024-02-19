@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Business\" />
-    <Folder Include="DataAccess\Concrete\" />
   </ItemGroup>
 
 </Project>

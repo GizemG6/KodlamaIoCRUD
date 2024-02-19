@@ -8,8 +8,8 @@ namespace KodlamaIo.Entities
 {
     public class Course : BaseEntity
     {
-        public string Description { get; set; }
-        public Category Category { get; set; }
-        public Instructor Instructor { get; set; }
+        public string? Description { get; set; }
+        public int categoryId { get; set; }
+        public int instructorId { get; set; }
     }
 }

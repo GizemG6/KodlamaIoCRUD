@@ -12,6 +12,6 @@ namespace KodlamaIo.DataAccess.Abstract
         T GetById(int id);
         List<T> GetAll();
         void Update(T entity);
-        void Delete(T entity);
+        void Delete(int id);
     }
 }

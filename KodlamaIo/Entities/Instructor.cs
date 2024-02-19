@@ -8,7 +8,6 @@ namespace KodlamaIo.Entities
 {
     public class Instructor : BaseEntity
     {
-        public string Surname { get; set; }
-        public ICollection<Course> Courses { get; set; }
+        public string? Surname { get; set; }
     }
 }
