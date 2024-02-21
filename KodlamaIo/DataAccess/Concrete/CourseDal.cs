@@ -14,8 +14,10 @@ namespace KodlamaIo.DataAccess.Concrete
         public CourseDal() 
         {
             _courses = new List<Course>
-            { new Course { Id = 1, Name = "C# 101", Description = "dgfdgf", categoryId = 1, instructorId = 1},
-              new Course { Id = 2, Name = "Java", Description = "sdfgdfg", categoryId = 2, instructorId = 2}
+            { new Course { Id = 1, Name = "C# 101", Description = "C# başlangıç", categoryId = 1, instructorId = 1},
+              new Course { Id = 2, Name = "Java", Description = "Java", categoryId = 2, instructorId = 2},
+              new Course { Id = 3, Name = "Python", Description = "Python", categoryId = 2, instructorId = 3},
+              new Course { Id = 4, Name = "C# 201", Description = "C#", categoryId = 1, instructorId = 1}
             };
         }
         public void Add(Course entity)
